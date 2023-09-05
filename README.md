@@ -1,4 +1,3 @@
-# oibsip_taskno3
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -28,7 +27,7 @@ public class ATMInterface {
                 System.out.print("Select an option: ");
 
                 int choice = scanner.nextInt();
-                scanner.nextLine(); 
+                scanner.nextLine(); // Consume newline
 
                 switch (choice) {
                     case 1:
@@ -51,7 +50,8 @@ public class ATMInterface {
                 System.out.print("Select an option: ");
 
                 int choice = scanner.nextInt();
-                scanner.nextLine(); 
+                scanner.nextLine(); // Consume newline
+
                 switch (choice) {
                     case 1:
                         withdraw(scanner);
